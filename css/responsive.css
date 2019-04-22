@@ -1,10 +1,17 @@
 @media only screen and (max-width: 1108px){
   .wrapper { width: 90%; }
 
-  #social {
-    position: absolute;
-    top: 82px;
-    right: 4px;
+#social a {
+  display: inline-block;
+  position: absolute;
+  top: -82px;
+  right: 4px;
+  width: 150px;
+}
+
+a.fbook, a.twit, a.gplus {
+    display: inline-block;
+    padding: 0 200px;
   }
 }
 
